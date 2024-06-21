@@ -1,3 +1,5 @@
+# Predicting the next big hit using Spotify Data
+
 The dataset we are investigating is a dataset of songs from the years 1960 - 2019. This data is taken from Spotify and we found this dataset on Kaggle. The dataset contains 19 columns with 1 column predicting popularity (0 or 1) and 18 columns for predictors. The predictors are many features of the song that relate to things such as the audio qualities or the duration of the songs. In the dataset, 1 is considered a popular song and 0 is considered a flop. A song is classified as popular if it was on the billboard 100 and it was in the US. The flops are also considered if it is from the US. This dataset has around 41 thousand rows of data and it has 50 percent 1s and 50 percent 0s.
 The question we are trying to answer is what are the important features of a hit song and are we able to predict if a song will be a hit or not based on these features. Our goal is to be able to put in a song’s parameters and get a return of if it is popular or not.
 
